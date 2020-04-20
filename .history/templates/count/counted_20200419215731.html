@@ -1,0 +1,15 @@
+<h1>The total word count for your text submitted is {{ count }}:</h1>
+<a href= ></a>
+<h1>Your submitted text:</h1>
+{{ fulltext }}
+
+
+<h1>Word Count:</h1>
+
+    {% for word, count in sortedWords %}
+<br>
+    {{ word }} :- {{ count }}
+<br>
+    {% endfor %}
+
+<br>

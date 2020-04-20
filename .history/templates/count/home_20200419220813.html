@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Welcome to Word Count</h1>
+
+<form action="{% url 'counted' %}">
+    
+ <textarea 
+        placeholder="Enter you text here"cols="80" rows="40" name="fulltext" warp required>
+</textarea>
+
+<br>
+<br>
+<input type="submit" value="Begin Count" />
+</form>
+<br>
+
+<br>    
+<br>
+    <a href="{% url @about@%}">About</a>
+</body>
+
+</html>
